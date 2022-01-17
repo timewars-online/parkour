@@ -1,0 +1,9 @@
+name: ParkourPlugin
+version: ${project.version}
+main: com.timewars.parkourplugin.ParkourPlugin
+api-version: 1.16
+depend:
+  - WorldEdit
+commands:
+  parkour:
+    description: Main Parkour Command.
